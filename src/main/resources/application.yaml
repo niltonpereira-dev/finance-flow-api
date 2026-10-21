@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: finance-flow-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/financeflow
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
